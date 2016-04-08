@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+body {
+	font-family: 'Open Sans', arial ,sans,sans-serif;
+	position: relative;
+}
+p {
+	font-family: 'Open Sans', arial ,sans,sans-serif;
+	line-height: 27px;
+}
+h1, h2, h3, h4 ,h5,h6 {
+	margin-right: 10px;
+}
+#wrapper .top-contain{
+	padding-top: 53px;
+}
+.form-group {
+	padding-left: 15px;
+}
+.section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.section-large {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.section-contact {
+	background: url(http://thuyuyen.info/wp-content/uploads/2014/12/3-736x405.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.navbar-default {
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    border-top: 2px solid transparent;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active,  
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+.navbar-default .container .navbar-header .navbar-brand .navbar-brand-img{
+	border-top: 2px solid #ca9700;
+	color: #ca9700;
+	background-color: inherit;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-top: -10px;
+}
+.carousel{
+	max-height: 450px;
+	margin: auto;
+	overflow: hidden;
+}
+/*
+.carousel .carousel-inner .item .carousel-caption{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: block;
+	width: 645px;
+	padding-top: 60px;
+}*/
+.carousel .carousel-inner .item {
+	background-color: #000;
+}
+.carousel .carousel-inner .item img {
+	opacity: 0.5;
+}
+.carousel .carousel-inner .item .carousel-caption{
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width: 645px;
+	padding-top: 0px;
+	height: 450px;
+}
+.carousel .carousel-inner .item .carousel-caption h1 {
+	font-weight: 300;
+	font-size: 4em;
+}
+.carousel .carousel-inner .item .carousel-caption p {
+	font-size: 1.2em;
+}
+.box-lamp {
+	background: url(../images/section-services-lamp.png) no-repeat top right;
+}
+.panel-caption {
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.panel-caption p,
+.panel-caption h1 {
+	text-align: center;
+}
+.panel-caption h1 {
+	font-size: 50px;
+}
+.panel-caption p {
+	font-size: 12px;
+}
+
+.box-panel {
+	padding: 40px;
+}
+.box-panel .box-detail{
+
+}
+.box-contain {
+	min-height: 510px;
+	overflow: hidden;
+}
+@media (min-width: 1200px){
+	.box-panel .box-detail{
+		padding-top: 30px;
+	}
+}
+.color-darker {
+	background-color: #f8f8f8;
+}
+.color-darker-2 {
+	background-color: #333;
+	color: #fff;
+}
+.color-darker-border-brand {
+	border-top:  5px solid #d79a01;
+	border-bottom:  5px solid #d79a01;
+}
+.text-upper{
+	text-transform: uppercase;
+}
+.text-brand{
+	color: #d19b00;
+}
+.text-paragraph {
+	word-spacing: 5px;
+	color: #5b5b5b;
+}
+.text-shadow{
+	text-shadow: 1px 1px 2px #000;
+}
+.text-gray{
+	color: #333;
+}
+.text-white {
+	color: #fff;
+}
+.text-fade {
+	color: #ada8a4;
+}
+.text-large {
+	font-size: 25px;
+}
+.text-update {
+	margin-top: 2px;
+}
+.text-no-margin {
+	margin: 0;
+}
+.text-thin {
+	font-weight: 300;
+}
+.text-review {
+	font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+	font-size: 23px;
+}
+.media-outer {
+	position: relative;
+	padding-bottom: 150px;
+}
+.media-inner {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, 0%);
+}
+.media-object {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+.container-relative {
+	position: relative;
+}
+
+.img-animate img {
+	cursor: pointer;
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img-animate:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+.img-basic {
+	overflow: hidden;
+	max-height: 200px;
+}
+.img-container .img-caption {
+	position: absolute; 
+   	bottom: 10px;
+   	width: 100%; 
+   	z-index: 2;
+}
+.img-caption-text{
+	padding: 20px 10px;
+}
+.img-container .img-caption .img-caption-right {
+   	text-align: right;
+   	padding-right: 50px;
+}
+.img-container .img-caption .img-caption-left {
+   	text-align: left;
+   	padding-left: 50px;
+}
+.img-lamp {
+	top:0;
+	position: absolute;
+	right: 0;
+	left: auto;
+	padding-right: 100px;
+}
+.img-overlay {
+	height: 100px;
+    background: linear-gradient(transparent, #000);
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    right:0;
+    z-index: 0;
+}
+.no-padding{
+	padding: 0px;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.btn-wide {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.panel-black {
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+}
+.panel-black .form-group {
+	padding: 0;
+}
+
+.list-social {
+	list-style-type: none;
+	margin: 0;
+}
+.list-social li {
+	display: inline;
+	padding: 0px 5px;
+	font-size: 18px;
+}
+.list-social li a {
+	color: #fff;
+}
+footer {
+	padding: 5px 0px;
+	background-color: #d79a01;
+}
+footer p {
+	margin: 0;
+}
