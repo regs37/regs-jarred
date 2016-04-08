@@ -321,22 +321,22 @@
 			<div class="container">
 				<p class="text-center text-fade text-upper">Clients</p>
 				<div class="row">
-					<div class="col-md-2">
+					<div class="col-sm-2 col-xs-3 col-md-2">
 						<img class="img-responsive" src="http://hartointerior.com/wp-content/uploads/2015/12/Interior-Design-Contract-Template-2016.jpg">
 					</div>
-					<div class="col-md-2">
+					<div class="col-sm-2 col-xs-3 col-md-2">
 						<img class="img-responsive" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzt3K0cXwLNkKUKNnkNkUldEu0i0HCyjfOdyyswPr9ugDvty7K">
 					</div>
-					<div class="col-md-2">
+					<div class="col-sm-2 col-xs-3 col-md-2">
 						<img class="img-responsive" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIZaE21pZr0AZMwu7xew8L89RVj0a6yA1zzc7gAQulSrf9DuVL">
 					</div>
-					<div class="col-md-2">
+					<div class="col-sm-2 col-xs-3 col-md-2">
 						<img class="img-responsive" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjMqcqvv7RlSOdDuERookATy6u6fxZDpR7_2heNRJWEjnlgIic">
 					</div>
-					<div class="col-md-2">
+					<div class="col-sm-2 col-xs-3 col-md-2">
 						<img class="img-responsive" src="http://im3.peldata.com/bl7/61323/20bg.jpg">
 					</div>
-					<div class="col-md-2">
+					<div class="col-sm-2 col-xs-3 col-md-2">
 						<img class="img-responsive" src="https://img0.etsystatic.com/028/2/6375559/il_340x270.581891566_pp5h.jpg">
 					</div>
 				</div>
